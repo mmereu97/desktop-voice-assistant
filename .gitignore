@@ -1,0 +1,22 @@
+# Personal data lives in ../Data, never in this repository:
+# settings, your prompts, .env, temporary audio, logs and debug screenshots.
+Data/
+screenshots/
+*.png
+!capture.png
+voice_chat_config.json
+temp_speech_*.mp3
+logs/
+.env
+*.env
+
+# Build / IDE
+__pycache__/
+*.pyc
+build/
+dist/
+*.exe
+.idea/
+.vscode/
+.venv/
+venv/
